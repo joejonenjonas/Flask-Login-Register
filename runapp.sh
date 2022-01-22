@@ -13,3 +13,7 @@ echo "COPY ./requirements.txt /home/myapp/requirements.txt" >> Dockerfile
 echo "RUN pip install -r requirements.txt" >> Dockerfile
 #cmd command om python script uit te voeren
 echo "CMD python3 /home/myapp/app.py" >> Dockerfile
+
+docker build -t app .
+docker run -t -d -p 3000:3000 --name loginapp app
+docker ps -a 
