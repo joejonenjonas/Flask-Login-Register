@@ -1,10 +1,10 @@
 #!/bin/bash
-cd Flask-Login-Register
+#cd Flask-Login-Register
 echo "FROM python" > Dockerfile
 echo "RUN pip install flask" >> Dockerfile
 #toevoegen nodige website onderdelen.
-echo "COPY ./Flask-Login-Register/backend /home/myapp/backend/" >> Dockerfile
-echo "COPY ./Flask-Login-Register/frontend /home/myapp/frontend/" >> Dockerfile
+echo "COPY ./backend /home/myapp/backend/" >> Dockerfile
+echo "COPY ./frontend /home/myapp/frontend/" >> Dockerfile
 echo "COPY ./backend/app.py /home/myapp/" >> Dockerfile
 #open poort 8082
 echo "EXPOSE 8082" >> Dockerfile
