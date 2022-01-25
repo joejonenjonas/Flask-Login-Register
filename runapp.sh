@@ -1,5 +1,5 @@
 #!/bin/bash
-#git clone https://github.com/joejonenjonas/Flask-Login-Register.git
+git clone https://github.com/joejonenjonas/Flask-Login-Register.git
 
 
 
