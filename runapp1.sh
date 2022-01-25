@@ -1,5 +1,10 @@
 #!/bin/bash
-#git clone https://github.com/joejonenjonas/Flask-Login-Register.git
+docker container rm -f $(docker ps -a -q)
+rm -rf tempdir
+mkdir tempdir
+
+cd tempdir
+git clone https://github.com/joejonenjonas/Flask-Login-Register.git
 
 
 
