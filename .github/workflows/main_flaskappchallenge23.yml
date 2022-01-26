@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'FlaskappChallenge23'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9632DE881620436E8C19B7FFC3F318AE }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1416E9E23BBD409ABDDBE3231B2DF547 }}
